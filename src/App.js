@@ -1,12 +1,13 @@
-import logo from "./logo.svg";
+
 import "./App.css";
-import Button from "@mui/material/Button";
+// import Button from "@mui/material/Button";
+import StudentLogin from "./Components/StudentLogin";
 
 function App() {
   return (
-    <div className="App">
-      <Button variant="contained">Contained</Button>
-    </div>
+    <StudentLogin />
+    
+    
   );
 }
 
